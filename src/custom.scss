@@ -1,0 +1,85 @@
+.row-component {
+    height: auto;
+}
+.input-without-style {
+    border: none;
+    display: inline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: none;
+    width: 100%;
+}
+.fit-content {
+    width: fit-content;
+    height: fit-content;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.border-empty {
+    border-left: 0px !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+}
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table thead th {
+    border-bottom: 2px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table tbody td {
+    border-top: 1px solid #dee2e6;
+    padding: 8px;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table thead th {
+    background-color: #f1f1f1; /* Add your desired background color */
+    border-bottom: 2px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+
+.custom-table tbody td {
+    border-top: 1px solid #dee2e6;
+    padding: 8px;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+.border-left {
+    border-right: 1px solid #dee2e6 !important;
+    border-bottom: none !important;
+    border-top: none !important;
+    background-color: #f1f1f1 !important;
+}
